@@ -20,7 +20,7 @@ class CartManager {
     }
 
     public void showCart() {
-        System.out.println("\n🛒 Cart Contents:");
+        System.out.println("\n Cart Contents:");
         for (Product p : cart) {
             p.displayInfo();
         }
